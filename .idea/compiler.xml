@@ -4,27 +4,23 @@
     <option name="PARALLEL_COMPILATION_OPTION" value="Automatic" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for jackson-test-demo" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../../Repository/Maven-Repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-        </processorPath>
-        <module name="jackson-test-demo" />
-      </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-actuator-test-demo" />
+        <module name="WebSocketDemo" />
+        <module name="jackson-test-demo" />
+        <module name="XXLJobDemo" />
+        <module name="kafka_demo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="jackson-test-demo" options="-parameters" />
-      <module name="spring-actuator-test-demo" options="-parameters" />
+      <module name="jackson-test-demo" options="" />
+      <module name="kafka_demo" options="-parameters" />
+      <module name="spring-actuator-test-demo" options="" />
     </option>
   </component>
 </project>

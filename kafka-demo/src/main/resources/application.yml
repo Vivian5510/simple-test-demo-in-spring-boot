@@ -1,0 +1,26 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: kafka_demo
+  kafka:
+    # kafka URI
+    bootstrap-servers: 1.92.81.114:9092
+    #    admin:
+    #      auto-create: true
+    consumer:
+      properties:
+        key.deserializer: org.apache.kafka.common.serialization.StringDeserializer
+        value.deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+        auto.offset.reset: earliest # earliest, latest, none (default latest) - where to start reading from when there is no initial offset in Kafka or if the current offset does not exist any longer on the server
+        spring.json.trusted.packages: '*' # trust all packages
+        max.poll.records: 2 # maximum number of records returned in a single call to poll()
+        interceptor.classes: com.rosy.kafka_demo.interceptor.CustomConsumerInterceptor # consumer interceptor
+        partition.assignment.strategy: org.apache.kafka.clients.consumer.RoundRobinAssignor # partition assignment strategy
+
+    producer:
+      properties:
+        partitioner.class: org.apache.kafka.clients.producer.RoundRobinPartitioner # partitioner
+        key.serializer: org.springframework.kafka.support.serializer.StringOrBytesSerializer
+        value.serializer: org.springframework.kafka.support.serializer.JsonSerializer
+        interceptor.classes: com.rosy.kafka_demo.interceptor.CustomProducerInterceptor # producer interceptor

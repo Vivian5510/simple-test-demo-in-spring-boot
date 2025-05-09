@@ -6,10 +6,13 @@
       <list>
         <option value="$PROJECT_DIR$/jackson-test-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-actuator-test-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/XXLJobDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/WebSocketDemo/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-18" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
