@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>WS测试</title>
+</head>
+
+<body>
+    <h1>WebSocket 测试</h1>
+    <script>
+        const socket = new WebSocket("ws://localhost:8000/ws");
+
+        socket.onopen = () => {
+            console.log("连接已打开！");
+            socket.send("你好，服务器！");
+        };
+
+        socket.onmessage = (event) => {
+            console.log("收到消息：", event.data);
+        };
+
+        socket.onerror = (err) => {
+            console.error("WebSocket 错误:", err);
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+xxl-job:
+    admin:
+      address: http://localhost:9090/xxl-job-admin
+      access-token: rosy.test
+      timeout: 3
+    executor:
+      address: http://host.docker.internal:9999
+      app-name: xxl-job-executor-sample
+      log-path: /data/applogs/xxl-job/jobhandler
+
+
+
