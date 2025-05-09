@@ -4,13 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba70646b-ce11-4e1f-b89a-f763dc6618ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ba70646b-ce11-4e1f-b89a-f763dc6618ee" name="Changes" comment="add(demo): kafka-demo">
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/KafkaDemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/config/KafkaListenerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/config/KafkaTopicConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/consumer/KafkaConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/controller/KafkaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/domain/entity/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/domain/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/interceptor/CustomConsumerInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/interceptor/CustomProducerInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/target/classes/com/rosy/kafka_demo/producer/KafkaProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-actuator-test-demo/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/src/main/java/com/rosy/WebSocketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/src/main/java/com/rosy/WebSocketApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/src/main/java/com/rosy/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/src/main/java/com/rosy/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/src/main/java/com/rosy/handler/MyWebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/src/main/java/com/rosy/handler/MyWebSocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/src/test/java/com/rosy/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/src/test/java/com/rosy/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketDemo/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-demo/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/.idea/CoverUsage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/.idea/CoverUsage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/src/main/java/com/rosy/XxlJobDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/src/main/java/com/rosy/XxlJobDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/src/main/java/com/rosy/xxl/job/demo/config/XxlJobConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/src/main/java/com/rosy/xxl/job/demo/config/XxlJobConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/src/main/java/com/rosy/xxl/job/demo/job/DemoJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/src/main/java/com/rosy/xxl/job/demo/job/DemoJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XXLJobDemo/src/test/java/com/rosy/xxl/job/demo/config/XxlJobConfigurationDiffblueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-demo/src/test/java/com/rosy/xxl/job/demo/config/XxlJobConfigurationDiffblueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-actuator-test-demo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-actuator-test-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-actuator-test-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-actuator-test-demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-actuator-test-demo/mvnw.cmd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +97,7 @@
         <option name="localRepository" value="G:\Repository\Maven-Repository" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="showDialogWithAdvancedSettings" value="true" />
+        <option name="useMavenConfig" value="false" />
         <option name="userSettingsFile" value="D:\DevTools\apache-maven-3.9.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -81,7 +126,7 @@
     "Spring Boot.SpringActuatorTestDemoApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/Material/Codes/Test/simple-test-demo-in-spring-boot/WebSocketDemo",
+    "last_opened_file_path": "G:/Material/Codes/Test/simple-test-demo-in-spring-boot/EmailDemo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,7 +168,7 @@
       </method>
     </configuration>
     <configuration name="KafkaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="kafka_demo" />
+      <module name="kafka-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rosy.KafkaDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,7 +189,7 @@
       </method>
     </configuration>
     <configuration name="XxlJobDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="XXLJobDemo" />
+      <module name="xxl-job-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rosy.XxlJobDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,8 +228,17 @@
       <workItem from="1746803909805" duration="760000" />
       <workItem from="1746804723748" duration="533000" />
       <workItem from="1746805264977" duration="106000" />
-      <workItem from="1746805378084" duration="1112000" />
+      <workItem from="1746805378084" duration="1803000" />
     </task>
+    <task id="LOCAL-00001" summary="add(demo): kafka-demo">
+      <option name="closed" value="true" />
+      <created>1746806577399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746806577399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +254,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add(demo): kafka-demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add(demo): kafka-demo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
